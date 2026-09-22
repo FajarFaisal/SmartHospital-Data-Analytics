@@ -52,7 +52,7 @@ This project processes, cleans, and analyzes clinical dataset structures across 
 ## 💻 Prerequisites & Requirements
 
 * **SAS Software Environment:**
-* SAS 9.4 (Desktop Edition) OR SAS OnDemand for Academics / SAS Enterprise Guide.
+* SAS OnDemand for Academics / SAS Enterprise Guide.
 
 
 

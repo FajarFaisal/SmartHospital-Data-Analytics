@@ -81,16 +81,12 @@ This project processes, cleans, and analyzes clinical dataset structures across 
 
 2. Load the main execution script from the project directory:
 ```sas
-Project/Group2_Project_Complete_Code.sas
+SmartHospital_DataAnalytics_Project.sas
 
 ```
 
 
 3. Submit and run the script.
-
-### Running Modular Parts
-
-To run specific workflow sections, open `Project/Group2_Project_Parts1-6_UPDATED.sas` and execute the desired labeled block (`Part 1` through `Part 6`).
 
 ---
 

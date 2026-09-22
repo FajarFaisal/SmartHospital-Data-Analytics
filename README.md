@@ -1,98 +1,66 @@
 # ⚕ SAS Medical / Clinical Data Analysis Pipeline
 
-A comprehensive SAS-based data processing, statistical modeling, and analytical reporting pipeline developed for medical and clinical trial dataset evaluation.
+An end-to-end healthcare data analytics project leveraging **SAS** to process, analyze, and extract actionable clinical and operational insights from hospital datasets.
 
 ---
 
 ## 📌 Project Overview
 
-This project processes, cleans, and analyzes clinical dataset structures across six distinct analytical modules (Parts 1–6). It includes complete SAS source scripts alongside pre-compiled execution logs and analytical summaries in PDF format for auditability and validation.
+Modern healthcare systems generate vast amounts of operational and patient data. This project focuses on applying statistical computing and data analytics using SAS to evaluate hospital resource utilization, patient outcomes, readmission risk factors, and overall operational performance.
+
+The primary objective is to support data-driven decision-making in hospital management, improving patient care efficiency and optimizing administrative workflows.
 
 ---
 
-## 📁 Repository Structure
+## 📂 Repository Structure
 
-```files
-.
-├── Project/
-│   ├── COMPLETE CODE_ Group2_Project.sas.pdf      # Complete combined SAS codebase (PDF document)[cite: 1]
-│   ├── Group2_Project_Complete_Code.sas          # Full consolidated SAS script[cite: 1]
-│   ├── Group2_Project_Parts1-6_UPDATED.sas        # Modular SAS script (Parts 1–6)[cite: 1]
-│   ├── Log_ Parts1-6_Group2_Project.sas.pdf      # SAS execution log & diagnostic output[cite: 1]
-│   └── Program Summary_Parts1-6_Group2_Project.sas.pdf # Analytical summary report & generated figures[cite: 1]
-└── README.md                                      # Project documentation
+| File Name | Description |
+| :--- | :--- |
+| **`README.md`** | Project documentation and repository overview. |
+| **`SmartHospital_DataAnalytics_Project.sas`** | Complete SAS script containing data processing, cleaning, and statistical analysis procedures. |
+| **`Smart Hospital Data Analytics Report.pdf`** | Comprehensive analytical report detailing methodologies, findings, statistical models, and business recommendations. |
+| **`SmartHospital Data Analytics Presentation.pdf`** | Presentation slides summarizing key trends, visualizations, and executive takeaways. |
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+- **Analytics & Programming:** SAS (Statistical Analysis System)
+- **Data Procedures Used:** `PROC MEANS`, `PROC FREQ`, `PROC REG`, `PROC LOGISTIC`, `PROC SQL`, `PROC REPORT`, `PROC SGPLOT`
+- **Documentation & Reporting:** PDF, Markdown
+
+---
+
+## 📊 Key Analytical Focus Areas
+
+1. **Patient Demographics & Admission Trends:** Evaluating length of stay (LOS), admission types, and demographic distributions.
+2. **Clinical Outcomes & Readmission Risk:** Identifying key variables contributing to hospital readmissions and treatment outcomes.
+3. **Resource Utilization:** Analyzing bed occupancy, department-level workloads, and staffing efficiencies.
+4. **Statistical Modeling:** Developing regression and predictive models to forecast resource demand and patient risks.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* **SAS Environment Used:** SAS OnDemand for Academics.
+
+### Running the Project
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/FajarFaisal/SmartHospital-Data-Analytics.git](https://github.com/FajarFaisal/SmartHospital-Data-Analytics.git)
 
 ```
 
----
-
-## 🔬 Key Features & Analysis Modules
-
-* **Part 1: Data Import & Cleaning** — Imports raw clinical/medical data, standardizes variable formats, handles missing values, and checks data types.
-
-
-* **Part 2: Exploratory Data Analysis (EDA)** — Computes summary statistics (`PROC MEANS`, `PROC UNIVARIATE`) and categorical frequency distributions (`PROC FREQ`).
-
-
-* **Part 3: Statistical Modeling** — Executes parametric and non-parametric statistical hypothesis testing and regression analyses.
-
-
-* **Part 4: Clinical Outcome & Survival/Trend Analysis** — Evaluates target outcomes, longitudinal trends, and survival/treatment metrics over time.
-
-
-* **Part 5: Data Visualization** — Generates publication-ready figures, histograms, boxplots, and scatterplots (`PROC SGPLOT`).
-
-
-* **Part 6: Reporting & Output Delivery** — Exports formatted tables and summary statistics using SAS Output Delivery System (ODS).
-
-
-
----
-
-## 💻 Prerequisites & Requirements
-
-* **SAS Software Environment:**
-* SAS OnDemand for Academics / SAS Enterprise Guide.
-
-
-
-
-* **Required SAS Modules:**
-* Base SAS
-
-
-* SAS/STAT
-
-
-* SAS/GRAPH or ODS Graphics (`PROC SGPLOT`)
-
-
-
-
-
----
-
-## 🚀 Usage & Execution
-
-### Running the Consolidated Script
-
-1. Open **SAS Studio**, **SAS Enterprise Guide**, or **SAS Windowing Environment**.
-
-
-2. Load the main execution script from the project directory:
+2. Open **`SmartHospital_DataAnalytics_Project.sas`** in your SAS environment.
+3. Update the library/file path definitions to point to your dataset directory:
 ```sas
-SmartHospital_DataAnalytics_Project.sas
+/* Define SAS Library */
+libname hosp "path-to-your-dataset-directory";
 
 ```
 
 
-3. Submit and run the script.
+4. Execute the program to generate analytical outputs, statistical models, and summary reports.
 
 ---
-
-## 📄 Output Deliverables
-
-* **`Log_ Parts1-6_Group2_Project.sas.pdf`**: Execution logs confirming clean execution without errors or warnings.
-
-
-* **`Program Summary_Parts1-6_Group2_Project.sas.pdf`**: Compiled analytical summary report containing statistical output tables, distribution plots, and graphical findings.

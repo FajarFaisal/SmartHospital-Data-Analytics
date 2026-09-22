@@ -1,4 +1,4 @@
-# SAS Medical / Clinical Data Analysis Pipeline
+# ⚕ SAS Medical / Clinical Data Analysis Pipeline
 
 A comprehensive SAS-based data processing, statistical modeling, and analytical reporting pipeline developed for medical and clinical trial dataset evaluation.
 

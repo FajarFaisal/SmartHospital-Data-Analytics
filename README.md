@@ -4,17 +4,6 @@ A comprehensive SAS-based data processing, statistical modeling, and analytical 
 
 ---
 
-## 📋 Table of Contents
-
-* [Project Overview](https://www.google.com/search?q=%2523-project-overview&utm_source=gemini)
-* [Repository Structure](https://www.google.com/search?q=%2523-repository-structure&utm_source=gemini)
-* [Key Features & Analysis Modules](https://www.google.com/search?q=%2523-key-features--analysis-modules&utm_source=gemini)
-* [Prerequisites & Requirements](https://www.google.com/search?q=%2523-prerequisites--requirements&utm_source=gemini)
-* [Usage & Execution](https://www.google.com/search?q=%2523-usage--execution&utm_source=gemini)
-* [Output Deliverables](https://www.google.com/search?q=%2523-output-deliverables&utm_source=gemini)
-
----
-
 ## 📌 Project Overview
 
 This project processes, cleans, and analyzes clinical dataset structures across six distinct analytical modules (Parts 1–6). It includes complete SAS source scripts alongside pre-compiled execution logs and analytical summaries in PDF format for auditability and validation.
